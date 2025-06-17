@@ -38,14 +38,14 @@ const Portfolio = () => {
           {/* ITEM MAIN CONTENT ENDS */}
           {/* ITEM DETAILS STARTS */}
           <div className="details">
-            <h4>Image Project</h4>
+            <h4>rechargermonauto</h4>
             <div>
               <ul>
                 <li>
                   <span>
                     <i className="fa-regular fa-file-lines" /> Project :
                   </span>
-                  <span>rechargermonauto</span>
+                  <span>Website</span>
                 </li>
                 {/* <li>
                   <span>
@@ -57,7 +57,7 @@ const Portfolio = () => {
                   <span>
                     <i className="fa-regular fa-hourglass" /> Duration :
                   </span>
-                  <span>8 months</span>
+                  <span>3 months</span>
                 </li>
                 <li>
                   <span>
@@ -80,18 +80,16 @@ const Portfolio = () => {
         <SwiperSlide className="single-item swiper-slide">
           {/* ITEM MAIN CONTENT STARTS */}
           <div className="main-content">
-           <div className="main-content">
-            <img
+           <img
               className="img-fluid"
               src="assets/portfolio/fostp.png"
               alt="Image Project"
             />
           </div>
-          </div>
           {/* ITEM MAIN CONTENT ENDS */}
           {/* ITEM DETAILS STARTS */}
           <div className="details">
-            <h4>FOSTP</h4>
+            <h4> FOSTP</h4>
             <div>
               <ul>
                 <li>
@@ -178,7 +176,7 @@ des Travaux Publics</span>
                   <span>
                     <i className="fa-solid fa-code-branch" /> Figma :
                   </span>
-                  <span>its materieux - az fod - rma </span>
+                  <span>its materieux - az fod - rma</span>
                 </li>
               </ul>
             </div>
@@ -195,29 +193,25 @@ des Travaux Publics</span>
         <SwiperSlide className="single-item swiper-slide">
           {/* ITEM MAIN CONTENT STARTS */}
           <div className="main-content">
-            <a
-              href="https://themeforest.net"
-              target="_blank"
-              className="external"
-            >
-              <img
-                className="img-fluid"
-                src="assets/portfolio/dashrma.png"
-                alt="External Project"
-              />
-            </a>
+          
+             <img
+              className="img-fluid"
+              src="assets/portfolio/zest1.png"
+              alt="Image Project"
+            />
+            
           </div>
           {/* ITEM MAIN CONTENT ENDS */}
           {/* ITEM DETAILS STARTS */}
           <div className="details">
-            <h4>Dashboard RMA</h4>
+            <h4>Zest juice</h4>
             <div>
               <ul>
                 <li>
                   <span>
                     <i className="fa-regular fa-file-lines" /> Project :
                   </span>
-                  <span>Rma</span>
+                  <span>website zest juice</span>
                 </li>
                 {/* <li>
                   <span>
@@ -235,11 +229,11 @@ des Travaux Publics</span>
                   <span>
                     <i className="fa-solid fa-code-branch" /> Frameworks :
                   </span>
-                  <span>Angular</span>
+                  <span>React js</span>
                 </li>
               </ul>
             </div>
-            <a href="https://github.com/Recharger-Mon-Auto/RMA-Dashboard-V2" target="_blank" className="custom-btn">
+            <a href="https://zestjuiceco.vercel.app/" target="_blank" className="custom-btn">
               <span>
                 preview <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>

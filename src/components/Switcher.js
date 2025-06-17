@@ -19,7 +19,7 @@ const Switcher = () => {
       <Head>
         <link rel="stylesheet" href={`css/skins/${color}.css`} />
       </Head>
-      <div
+      {/* <div
         id="switcher"
         className={toggle ? "open" : "close"}
         style={{ display: "block" }}
@@ -55,7 +55,7 @@ const Switcher = () => {
         onClick={() => setToggle(true)}
       >
         <i className="fa fa-cog" />
-      </div>
+      </div> */}
     </Fragment>
   );
 };
