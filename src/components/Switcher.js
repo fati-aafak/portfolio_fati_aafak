@@ -1,16 +1,15 @@
-import Head from "next/head";
 import { Fragment, useState } from "react";
-const colors = [
-  { id: 1, name: "yellow" },
-  { id: 2, name: "green" },
-  { id: 3, name: "red" },
-  { id: 4, name: "blue" },
-  { id: 5, name: "orange" },
-  { id: 6, name: "yellowgreen" },
-  { id: 7, name: "pink" },
-  { id: 8, name: "goldenrod" },
-];
+import Head from "next/head";
+
 const Switcher = () => {
+  const colors = [
+    { id: 1, name: "yellow" },
+    { id: 2, name: "green" },
+    { id: 3, name: "blue" },
+    { id: 4, name: "red" },
+    { id: 5, name: "purple" }
+  ];
+
   const [color, setColor] = useState("yellow");
   const [toggle, setToggle] = useState(false);
 
@@ -19,7 +18,7 @@ const Switcher = () => {
       <Head>
         <link rel="stylesheet" href={`css/skins/${color}.css`} />
       </Head>
-      {/* <div
+      <div
         id="switcher"
         className={toggle ? "open" : "close"}
         style={{ display: "block" }}
@@ -27,18 +26,17 @@ const Switcher = () => {
         <div className="content-switcher">
           <h4>COLOR SWITCHER</h4>
           <ul>
-            {colors.map((color) => (
-              <li>
+            {colors.map((colorItem) => (
+              <li key={colorItem.id}>
                 <a
                   href="#"
-                  title={color.name}
+                  title={colorItem.name}
                   className="color"
-                  key={color.id}
-                  onClick={() => setColor(color.name)}
+                  onClick={() => setColor(colorItem.name)}
                 >
                   <img
-                    src={`assets/styleswitcher/${color.name}.png`}
-                    alt={color.name}
+                    src={`assets/styleswitcher/${colorItem.name}.png`}
+                    alt={colorItem.name}
                   />
                 </a>
               </li>
@@ -55,8 +53,9 @@ const Switcher = () => {
         onClick={() => setToggle(true)}
       >
         <i className="fa fa-cog" />
-      </div> */}
+      </div>
     </Fragment>
   );
 };
+
 export default Switcher;
