@@ -113,13 +113,13 @@ des Travaux Publics</span>
                 </li>
                 <li>
                   <span>
-                    <i className="fa-solid fa-code-branch" /> Frameworks :
+                    <i className="fa-solid fa-code-branch" /> Figma :
                   </span>
-                  <span>React js</span>
+                  <span>FOSTP</span>
                 </li>
               </ul>
             </div>
-            <a href="https://www.fostp.ma/" target="_blank" className="custom-btn">
+            <a href="https://www.figma.com/design/dnbdB4XQPt29OWbrx5DNVr/fondation-2?node-id=0-1&p=f&t=MgEeb2BYrbndH0OS-0" target="_blank" className="custom-btn">
               <span>
                 preview <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>
@@ -158,7 +158,7 @@ des Travaux Publics</span>
                   <span>
                     <i className="fa-regular fa-file-lines" /> Project :
                   </span>
-                  <span>Mobile App</span>
+                  <span>Mobile App - website</span>
                 </li>
                 {/* <li>
                   <span>
@@ -176,7 +176,7 @@ des Travaux Publics</span>
                   <span>
                     <i className="fa-solid fa-code-branch" /> Figma :
                   </span>
-                  <span>its materieux - az fod - rma</span>
+                  <span>its materieux - az fod - rma - Neom - fanzone - AZ energies - AZ finances</span>
                 </li>
               </ul>
             </div>
